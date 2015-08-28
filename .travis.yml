@@ -6,5 +6,12 @@ install:
 script: 
   - xbuild /p:Configuration=Release TimeManagementService.sln 
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./TimeManagementService.Test/bin/Release/TimeManagementService.Test.dll
+deploy:
+   provider: cloudfoundry
+   api: https://api.beta.ironfoundry.me
+   username: prabhu.p@verizon.com
+   password: >;TRbn7pwYN-
+   organization: HackVeriDD
+   space: development
 
 
