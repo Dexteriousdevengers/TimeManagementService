@@ -10,8 +10,7 @@ deploy:
    provider: cloudfoundry
    api: https://api.beta.ironfoundry.me
    username: prabhu.p@verizon.com
-   password: 
-   secure: >;TRbn7pwYN-
+   password: Prabhu
    organization: HackVeriDD
    space: development
 
