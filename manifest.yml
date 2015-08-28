@@ -1,0 +1,6 @@
+applications:
+name: TimeManagementService
+domain: beta.ironfoundry.me
+host: TimeManagementService
+path: ./TimeManagementService
+stack: windows2012
